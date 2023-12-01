@@ -1,0 +1,56 @@
+@media screen and  (max-width:1024px){
+    .header1{
+        flex-direction: column;
+    }
+    .header2 nav{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:881px) {
+    .slider h1, .major-text{
+        font-size: 7vh;
+    }
+    .green-text{
+        font-size: 3vh;
+    }
+    button{
+        width: 160px;
+        height: 50px;
+    }
+    
+}
+@media screen and (max-width:599px){
+    .header1{
+        display: none;
+    }
+    .carousel{
+      grid-template-columns: 1fr
+    }
+    .carousel-item{
+        min-height: 35vh;
+    }
+    
+    .images-container #bottom-image{
+        display: none;
+    }
+    .know-us{
+        flex-direction: column;
+    }
+    .details-container ul{
+        grid-template-columns: 1fr;
+    }
+    .offering{
+        position: none;
+        height: max-content;
+    }
+    .offering .row{
+        grid-template-columns: 1fr;
+    }
+    .carousel-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5vh;
+    }
+    
+}
