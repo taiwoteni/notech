@@ -8,7 +8,7 @@ const sliders = [
     },
     {
         background_image:"slider-2.jpg",
-        slider_title:`<span><span class="green-text"> IT SOFTWARE SOLUTION &</span> <br> <span class="major-text">technology</span></span>`,
+        slider_title:`<span class="green-text"> IT SOFTWARE SOLUTION &</span> <br> <span class="major-text">technology</span></span>`,
         slider_description:"",
         button_text:"Discover More",
         alignment:"center"
@@ -213,7 +213,7 @@ const header_2 = document.getElementsByClassName("header2")[0]
 const header_2_offset = header_2.offsetTop;
 
 
-window.addEventListener('scroll', toggle_sticky_header);
+// window.addEventListener('scroll', toggle_sticky_header);
 
 show_carousel_1()
 show_carousel_2()
