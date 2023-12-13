@@ -8,6 +8,7 @@ color: #6653E8
     --box-shadow:rgba(0, 0, 0, 0.148);
     --teal-1-color:#2BE4AC;
     --teal-2-color:#0dcaf0;
+    --large-font-size: 20
 }
 @font-face {
     font-family: Gilmer;
@@ -242,7 +243,7 @@ main{
 .slider{
     font-family: Gilmer;
     min-width: 100%;
-    min-height: 50vh;
+    min-height: 70vh;
     background: url(images/sliders/slider-1.jpg);
     background-position: center;
     background-size: cover;

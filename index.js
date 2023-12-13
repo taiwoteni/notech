@@ -1,3 +1,4 @@
+
 const sliders = [
     {
         background_image:"slider-1.jpg",
