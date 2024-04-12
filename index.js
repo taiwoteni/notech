@@ -8,6 +8,7 @@ const sliders = [
         alignment:"center"
     },
     {
+    
         background_image:"slider-2.jpg",
         slider_title:`<span class="green-text"> IT SOFTWARE SOLUTION &</span> <br> <span class="major-text">technology</span></span>`,
         slider_description:"",
